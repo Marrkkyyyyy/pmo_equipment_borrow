@@ -1,0 +1,42 @@
+name: pmo_equipment_borrow
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  shared_preferences: ^2.3.2
+  firebase_core: ^3.6.0
+  flutter_easyloading: ^3.0.5
+  mobile_scanner: ^4.0.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - lottie/
+    - assets/
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: fonts/Manrope.ttf
+        - asset: fonts/Manrope-ExtraBold.ttf
+        - asset: fonts/Manrope-ExtraLight.ttf
+        - asset: fonts/Manrope-Light.ttf
+        - asset: fonts/Manrope-Medium.ttf
+        - asset: fonts/Manrope-Regular.ttf
+        - asset: fonts/Manrope-SemiBold.ttf
